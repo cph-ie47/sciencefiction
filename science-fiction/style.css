@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  /* background-color: darken($hoved-farve, 20%); */ }
+
+body {
+  background: url(images/stjernehimmel-baggrund.jpg) no-repeat center center fixed; }
+
+nav {
+  background-color: #221C35;
+  position: fixed;
+  z-index: 2;
+  height: 40px;
+  width: 100%; }
+  nav ul {
+    float: right;
+    margin-right: 20px; }
+    nav ul li {
+      display: inline-block;
+      line-height: 40px;
+      margin: 0 5px; }
+      nav ul li a {
+        color: white;
+        font-size: 18px;
+        font-family: "Rajdhani", sans-serif;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase; }
+    nav ul a:hover {
+      color: #FDA50F; }
+
+label.logo {
+  color: white;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 0 60px;
+  font-weight: bold; }
+
+figure {
+  text-align: center; }
+  figure img {
+    width: 700px;
+    padding: 30px 0px 20px 0px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; }
+  figure figcaption {
+    width: 700px;
+    text-align: center;
+    padding: 10px 10px;
+    border-left: thick double #FDA50F;
+    /* border: 1px dotted white; */
+    position: relative;
+    left: 280px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white; }
+
+h1 {
+  text-align: center;
+  font-family: "Orbitron", helvetica, sans-serif;
+  font-size: 36px;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
+h2, h3 {
+  text-align: center;
+  font-family: "Orbitron", helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 20px; }
+
+h4 {
+  text-align: center;
+  font-family: "Orbitron", helvetica, sans-serif;
+  font-size: 28px;
+  padding-top: 90px;
+  color: white; }
+
+.text1, .text2 {
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  width: 700px;
+  left: 22%;
+  position: relative; }
+
+.text2 {
+  padding-bottom: 100px; }
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #0d0a14;
+  color: white;
+  text-align: center; }
+  footer li {
+    display: inline-block;
+    vertical-align: bottom; }
+  footer p {
+    padding-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */
